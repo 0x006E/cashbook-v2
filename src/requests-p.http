@@ -1,0 +1,23 @@
+POST  ntsv.pythonanywhere.com/api/particulars
+Content-Type: application/json
+
+{
+    "_type":"expenditure", 
+    "particular": "Hello World"
+}
+
+#####
+
+GET ntsv.pythonanywhere.com/api/particulars
+
+#####
+PUT ntsv.pythonanywhere.com/api/particulars?id=1
+Content-Type: application/json
+
+{
+    "_type":"income", 
+    "particular": "Hello World"
+}
+
+####
+DELETE ntsv.pythonanywhere.com/api/particulars?id=1

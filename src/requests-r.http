@@ -1,0 +1,27 @@
+POST  ntsv.pythonanywhere.com/api/records
+Content-Type: application/json
+
+{
+    "_type": "income",
+    "bank": 0,
+    "cash": 0,
+    "date": "2021-05-06",
+    "particulars": 7
+}
+#####
+
+GET localhost:5000/api/records
+
+#####
+PUT ntsv.pythonanywhere.com/api/records?id=2
+Content-Type: application/json
+
+{
+    "_type": "expenditure",
+    "bank": 0,
+    "cash": 0,
+    "date": "2021-05-06",
+    "particulars": 4
+}
+####
+DELETE ntsv.pythonanywhere.com/api/particulars?id=1

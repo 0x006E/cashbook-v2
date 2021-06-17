@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.DayPickerInput > input {
+  @apply border-2 border-gray-400 p-2 w-full;
+}
+
+.DayPickerInput {
+  @apply w-full;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 450ms ease-in;
+}
