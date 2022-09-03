@@ -1,8 +1,7 @@
 # Project Created using Creact React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## Demo
-A demo is available at [https://nullptr.live/cb/](https://nullptr.live/cb/)
+
 ## Current Functionalities
 
 1. Enter Income, Expense, and Particular details
